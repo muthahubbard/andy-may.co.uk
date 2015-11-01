@@ -1,0 +1,827 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"icon",
+				"iconUrl〔variable〕"
+			],
+			[
+				"res",
+				"responsiveFormsCSSFiles"
+			],
+			[
+				"category",
+				"categoryToggleIcon〔variable〕"
+			],
+			[
+				"cate",
+				"categoryToggleIcon〔variable〕"
+			],
+			[
+				"categoryT",
+				"categoryToggleIcon"
+			],
+			[
+				"marker",
+				"markerConfig〔variable〕"
+			],
+			[
+				"html",
+				"htmlCategoryToggles"
+			],
+			[
+				"Cat",
+				"Category"
+			],
+			[
+				"sub",
+				"subcategory〔argument〕"
+			],
+			[
+				"S",
+				"SubCategory"
+			],
+			[
+				"get",
+				"getMarker"
+			],
+			[
+				"C",
+				"CONFIG"
+			],
+			[
+				"create",
+				"createEvent〔function〕"
+			],
+			[
+				"be",
+				"behavior"
+			],
+			[
+				"amen",
+				"amenityObj〔argument〕"
+			],
+			[
+				"info",
+				"infowindow"
+			],
+			[
+				"ge",
+				"getIcon"
+			],
+			[
+				"mar",
+				"markerImage〔variable〕"
+			],
+			[
+				"ameni",
+				"amenity"
+			],
+			[
+				"Mar",
+				"MarkerImage"
+			],
+			[
+				"map",
+				"mapMarker〔variable〕"
+			],
+			[
+				"Marke",
+				"MarkerInfoWindow〔function〕"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"che",
+				"checkedAttribute〔variable〕"
+			],
+			[
+				"A",
+				"AmenityCategory"
+			],
+			[
+				"ame",
+				"amenity"
+			],
+			[
+				"ca",
+				"category"
+			],
+			[
+				"cat",
+				"categories"
+			],
+			[
+				"am",
+				"amenity"
+			],
+			[
+				"json",
+				"jsonData"
+			],
+			[
+				"pr",
+				"processApiData"
+			],
+			[
+				"pso",
+				"position"
+			],
+			[
+				"in",
+				"instanceof"
+			],
+			[
+				"compa",
+				"compareItemEffectEl"
+			],
+			[
+				"compare",
+				"compareItemWrapper"
+			],
+			[
+				"creat",
+				"createElement〔function〕"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"compar",
+				"compareWrapper"
+			],
+			[
+				"quer",
+				"querySelector"
+			],
+			[
+				"act",
+				"action__text"
+			],
+			[
+				"class",
+				"classie〔variable〕"
+			],
+			[
+				"rem",
+				"removeIndex"
+			],
+			[
+				"cla",
+				"classie〔variable〕"
+			],
+			[
+				"re",
+				"remove"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"product",
+				"productInfo"
+			],
+			[
+				"items",
+				"itemsAllowed"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"init",
+				"initEvents"
+			],
+			[
+				"ac",
+				"action__text"
+			],
+			[
+				"tras",
+				"transition"
+			],
+			[
+				"trans",
+				"transform"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "",
+			"file": "/C/Users/Andrew May/Dropbox/andy-may.co.uk/test.html",
+			"file_size": 0,
+			"file_write_time": 130904459442408847,
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "{\n	// HELP / INFO moved to bottom\n	// Remove \"//\" to uncomment settings directive\n\n	\"default\": {\n\n		\"host\": \"ftp.andy-may.co.uk\",\n		\"username\": \"muthahubbard\",  // or null for anonymous login\n		\"password\": \"a-8,3G!\",\n		\"path\": \"/\",\n\n		\"upload_on_save\": true, // set *false* if you do not want to upload on save!\n\n		// \"port\": 21,\n		// \"tls\": false,\n		// \"timeout\": 30, // [seconds]\n\n		// \"passive\": true,\n		// \"download_on_open\": false,\n		// \"overwrite_newer_prevention\": true,\n		// \"default_folder_permissions\": \"755\",\n		// \"default_upload_permissions\": null, // null = no action taken\n		// \"time_offset\": 0, // [seconds]\n		// \"always_sync_local_permissions\": true,\n\n		// Value \"auto\" = use UTF-8 if availible (FEAT: UTF8), otherwise use local\n		// \"encoding\": \"auto\",\n\n		// Trade small performance impact for more stable and secure transfer (old file is intact until the download is finished)\n		// \"use_tempfile\": true,\n\n		// Regular expression, recommending using \\b in general and /.../ for folders to avoid matching substrings\n		// \"ignore\": \"\",\n\n		// Can be used for increase of performance or to allow build scripts to finish\n		// \"upload_delay\": 0, // [seconds]\n\n		// Only if the server has MFMT extension installed\n		// \"set_remote_lastmodified\": true,\n\n		// Chmod value for files newly downloaded by FTPSync\n		//   \"auto\" = same as on server\n		//   null = no action taken\n		//   \"0644\" = example for direct value\n		// \"default_local_permissions\": \"auto\",\n\n		// List of lists with pathnames and filenames to folders to be watched for change in between delay (upload_delay)\n		//   example: after_save_watch: [ [ \"code/assets/css\", \"*.css\" ], [ \"code/assets/\", \"*.jpg, *.png, *.gif\" ] ]\n		//   used only in conjunction with upload_on_save and upload_delay **\n		// For more info see https://github.com/NoxArt/SublimeText2-FTPSync/wiki/Why-and-how-to-use-afterwatch\n		// \"after_save_watch\": [],\n\n	}\n\n	// ------ INFO ----------------------------------------------------------------------\n\n	// Index page\n	// --- https://github.com/NoxArt/SublimeText2-FTPSync/\n\n	// For settings description see:\n	// --- https://github.com/NoxArt/SublimeText2-FTPSync/wiki/All-settings\n\n	// For more info see:\n	// --- https://github.com/NoxArt/SublimeText2-FTPSync/wiki/_pages\n\n	// Want to ask? Report a bug?\n	// --- Hit: https://github.com/NoxArt/SublimeText2-FTPSync/issues/new\n\n\n	// ** Commas **\n\n	// from now on extra commas are allowed and recommended\n\n	// ** Comments **\n\n	// The \"//\" are so called \"comments\", all text after it is ignored,\n	// they are used for notes or deactivating an entry\n\n	// Non-basic settings are deactivated and default options specified in the global settings file,\n	// that is $packages$/FTPSync/ftpsync.sublime-settings (where $packages$ is a path where Sublime\n	// keeps packages in your Operating System) accessible via Preferences > Package Settings > FTPSync\n	// Use Settings - User to override the global defaults\n\n	// More info about Sublime Text 2 settings on http://www.sublimetext.com/docs/2/settings.html\n\n}\n",
+			"file": "/C/Users/Andrew May/Dropbox/andy-may.co.uk/ftpsync.settings",
+			"file_size": 3125,
+			"file_write_time": 130904465699409365,
+			"settings":
+			{
+				"buffer_size": 3039,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "client/hello.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "Pack",
+		"selected_items":
+		[
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package",
+				"Package Control: Remove Package"
+			],
+			[
+				"Insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: In",
+				"Package Control: Install Package"
+			],
+			[
+				"Sass",
+				"SassBeautify"
+			],
+			[
+				"Package Contr",
+				"Package Control: Install Package"
+			],
+			[
+				"Pa",
+				"Package Control: Install Package"
+			],
+			[
+				"JSLint",
+				"JSLint"
+			],
+			[
+				"Package Control In",
+				"Package Control: Install Package"
+			],
+			[
+				"Mardoen",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"Install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 424.0
+	},
+	"console":
+	{
+		"height": 359.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/C/Users/Andrew May/AppData/Roaming/Sublime Text 3/Packages/SFTP/SFTP.sublime-settings",
+		"/C/Users/Andrew May/AppData/Roaming/Sublime Text 3/Packages/User/SFTP.sublime-settings",
+		"/C/Users/Andrew May/AppData/Roaming/Sublime Text 3/Packages/User/FTPSync.sublime-settings",
+		"/C/Users/Andrew May/Dropbox/playground/andy-may-cv/Gruntfile.js",
+		"/C/Users/Andrew May/Dropbox/playground/andy-may-cv/app/index.html",
+		"/C/projects/barratt-developments.hg/London/BarrattDevelopments.Web/Static/Scripts/Behaviors/map-amenities.js",
+		"/C/projects/barratt-developments.hg/London/BarrattDevelopments.Web/Static/Scripts/Components/templates.js",
+		"/C/Projects/barratt-developments.hg/London/BarrattDevelopments.Web/map-amenities-data.json",
+		"/C/projects/barratt-developments.hg/London/BarrattDevelopments.Web/Static/Scripts/Behaviors/map-location.js",
+		"/C/projects/barratt-developments.hg/London/BarrattDevelopments.Web/Static/Sass/Modules/_amenities.scss",
+		"/C/projects/barratt-developments.hg/London/BarrattDevelopments.Web/Static/GruntFile.js",
+		"/C/Projects/barratt-developments.hg/London/BarrattDevelopments.Web/Static/GruntFile.js",
+		"/C/Users/Andrew May/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/projects/barratt-developments.hg/London/BarrattDevelopments.Web/Static/Sass/_site-config.scss",
+		"/C/Projects/barratt-developments.hg/id_build/GruntFile.js",
+		"/C/Projects/barratt-developments.hg/id_build/config/copy.js",
+		"/C/Projects/barratt-developments.hg/id_build/package.json",
+		"/C/projects/barratt-developments.hg/London/BarrattDevelopments.Web/Static/package.json",
+		"/C/Users/Andrew May/Desktop/category-toggle-supermarket.svg",
+		"/C/Users/Andrew May/Desktop/category-toggle-transport.svg",
+		"/C/Users/Andrew May/Desktop/category-toggle-food-drink.svg",
+		"/C/Users/Andrew May/Desktop/category-toggle-leisure.svg",
+		"/C/Users/Andrew May/Desktop/category-toggle-culture.svg",
+		"/C/Users/Andrew May/Desktop/category-toggle-outdoors.svg",
+		"/C/Projects/barratt-developments.hg/London/BarrattDevelopments.Web/Static/Sass/Modules/_amenities.scss",
+		"/C/Users/Andrew May/Desktop/category-toggle-shopping.svg",
+		"/C/Users/Andrew May/Desktop/education-icon.svg",
+		"/C/projects/barratt-developments.hg/London/BarrattDevelopments.Web/Static/Scripts/Components/window-resize.js",
+		"/C/projects/barratt-developments.hg/London/BarrattDevelopments.Web/Static/Scripts/global.js",
+		"/C/projects/barratt-developments.hg/London/BarrattDevelopments.Web/Static/Sass/Modules/_floorplates.scss",
+		"/C/projects/barratt-developments.hg/London/BarrattDevelopments.Web/Static/Sass/Components/_forms.scss",
+		"/C/projects/barratt-developments.hg/London/BarrattDevelopments.Web/Static/Sass/Modules/_article.scss",
+		"/C/Users/Andrew May/Documents/GitHub/zwag/src/scripts/service-layer/dataService.js",
+		"/C/projects/barratt-developments.hg/London/BarrattDevelopments.Web/Static/Sass/Components/_tabs.scss",
+		"/C/projects/barratt-developments.hg/London/BarrattDevelopments.Web/Static/Scripts/Components/barratt-map.js",
+		"/C/projects/barratt-developments.hg/London/BarrattDevelopments.Web/Static/Scripts/main.js",
+		"/C/Users/Andrew May/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/Andrew May/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/projects/barratt-developments.hg/London/BarrattDevelopments.Web/Static/Sass/Components/_image-caption.scss",
+		"/C/Projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/assets/web/lib/script/BarrattDevelopments/Behaviors.js",
+		"/C/Projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/assets/web/lib/script/third_party/concat/pubsub.js",
+		"/C/Projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/assets/web/lib/script/BarrattDevelopments/Behaviors/mapAmenities.js",
+		"/C/Projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/assets/web/lib/script/lbi/LBI.viewMap.js",
+		"/C/Projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/assets/web/lib/script/BarrattDevelopments.js",
+		"/C/Projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/assets/web/lib/script/lbi/LBI.init.js",
+		"/C/Projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/assets/web/lib/script/lbi/LBI.common.js",
+		"/C/Projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/assets/web/lib/script/BarrattDevelopments/Behaviors/map-amenities.js",
+		"/C/Projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/assets/web/lib/script/BarrattDevelopments/Behaviors/CookieBanner.js",
+		"/C/Projects/barratt-developments.hg/London/BarrattDevelopments.Web/Static/Scripts/Behaviors/map-amenities.js",
+		"/C/Projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/assets/web/lib/script/BarrattDevelopments/Behaviors/VimeoDevelopment.js",
+		"/C/Projects/vmb-website/Source/VirginMedia.Web.Business/Static/scripts/vmb.main.js",
+		"/C/Projects/vmb-website/Source/VirginMedia.Web.Business/Static/Mobile/scripts/main.js",
+		"/C/Projects/vmb-website/Source/VirginMedia.Web.Business/Static/gulpfile.js",
+		"/C/Projects/vmb-website/Source/VirginMedia.Web.Business/Static/Mobile/scss/pages/_commerce.scss",
+		"/C/projects/barratt-developments.hg/London/BarrattDevelopments.Web/Static/Scripts/Behaviors/plot-plan.js",
+		"/C/Projects/vmb-website/Source/VirginMedia.Web.Business/Static/Mobile/scss/templates/_layout.scss",
+		"/C/projects/barratt-developments.hg/London/BarrattDevelopments.Web/Static/Sass/ThemeMixins/_page-header-mixins.scss",
+		"/C/projects/barratt-developments.hg/London/BarrattDevelopments.Web/Static/Sass/ThemeMixins/_page-header.scss",
+		"/C/Users/Andrew May/AppData/Roaming/Sublime Text 3/Packages/User/SassBeautify.sublime-settings",
+		"/C/Users/Andrew May/AppData/Roaming/Sublime Text 3/Packages/SassBeautify/SassBeautify.sublime-settings",
+		"/C/Projects/sublime-projects/london.sublime-project",
+		"/C/Projects/barratt-developments.hg/London/BarrattDevelopments.Web/Static/package.json",
+		"/C/Projects/barratt-developments.hg/London/Build/Configs/BarrattDevelopments.Web/connectionStrings.BASE.config",
+		"/C/Users/Andrew May/Desktop/hosts",
+		"/C/Projects/barratt-developments.hg/London/Build/Configs/BarrattDevelopments.Web/appSettings.BASE.config",
+		"/C/Projects/barratt-developments.hg/London/Build/Configs/appSettings.BASE.config",
+		"/C/Users/Andrew May/AppData/Roaming/Sublime Text 3/Packages/User/CSScomb.sublime-settings",
+		"/C/projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/assets/web/_Sass/Site/Modules/_development-video.scss",
+		"/C/projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/assets/web/_Sass/Site/_site-config.scss",
+		"/C/Users/Andrew May/AppData/Roaming/Sublime Text 3/Packages/CSScomb/README.md",
+		"/C/Users/Andrew May/AppData/Roaming/Sublime Text 3/Packages/CSScomb/CSScomb.sublime-settings",
+		"/C/Projects/barratt-developments.hg/London/BarrattDevelopments.Web/Static/Sass/_site-config.scss",
+		"/C/Projects/barratt-developments.hg/London/BarrattDevelopments.Web/Static/Sass/Themes/london-base.scss",
+		"/C/Projects/sublime-projects/.csscomb.json",
+		"/C/Projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/assets/web/_Sass/BAR/Modules/MixinModules/_andys-module.scss",
+		"/C/EPiServer/Sites/barratt.local/HtmlTemplates/WEBBAU-Andy/default.aspx",
+		"/C/projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/assets/web/_Sass/BAR/Modules/MixinModules/_development-video.scss",
+		"/C/Users/Andrew May/AppData/Roaming/Sublime Text 3/Packages/DocBlockr/Base File.sublime-settings",
+		"/C/Users/Andrew May/AppData/Roaming/Sublime Text 3/Packages/User/Base File.sublime-settings",
+		"/C/Projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/HtmlTemplates/WEBBAU-725/WEBBAU-725.aspx",
+		"/C/projects/barratt-developments.hg/id_build/GruntFile.js",
+		"/C/projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/assets/web/_Sass/Site/Modules/_all.scss",
+		"/C/projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/assets/web/_Sass/Site/Modules/_rich-content.scss",
+		"/C/projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/assets/web/_Sass/Site/Modules/RichContent/_all.scss",
+		"/C/projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/assets/web/lib/script/BarrattDevelopments/Behaviors/CookieBanner.js",
+		"/C/projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/assets/web/_Sass/Site/Modules/_vimeo.scss",
+		"/C/projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/assets/web/_Sass/Site/Modules/_stacked-search-result-outer.scss",
+		"/C/projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/assets/web/lib/script/BarrattDevelopments/Behaviors/VimeoDevelopment.js",
+		"/C/projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/assets/web/_Sass/Site/Modules/_person-info.scss",
+		"/C/projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/assets/web/_Sass/Site/Modules/_promo-boxes.scss",
+		"/C/projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/assets/web/_Sass/Site/Modules/_cookie-banner.scss",
+		"/C/Projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/HtmlTemplates/WEBBAU-945/WEBBAU-945.aspx",
+		"/C/Projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/HtmlTemplates/WEBBAU-617/WEBBAU-617.aspx",
+		"/C/projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/assets/web/lib/script/BarrattDevelopments.js",
+		"/C/projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/assets/web/lib/script/BarrattDevelopments/Behaviors.js",
+		"/C/Projects/sublime-projects/barratt.sublime-project",
+		"/C/projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/assets/web/lib/script/BarrattDevelopments/Behaviors/AnnotatedCarousel.js",
+		"/C/Users/Andrew May/Documents/Playground/product-compare/scripts/main.js",
+		"/C/Projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/assets/web/lib/script/BarrattDevelopments/Behaviors/Warranty.js",
+		"/C/Projects/playground/svg-spite-demo/index.html",
+		"/C/projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/assets/web/lib/script/BarrattDevelopments/Config/default.js",
+		"/C/projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/assets/web/lib/script/BarrattDevelopments/VimeoPlayer.js",
+		"/C/Projects/barratt-developments.hg/id_build/config/sass.js",
+		"/C/Users/Andrew May/Documents/GitHub/zwag/index.html",
+		"/C/Users/Andrew May/Documents/Playground/product-compare/index.html",
+		"/C/Users/Andrew May/Documents/GitHub/zwag/src/scripts/filters/startForm.js",
+		"/C/Users/Andrew May/Documents/GitHub/zwag/src/scripts/app.js",
+		"/C/Users/Andrew May/Documents/GitHub/zwag/src/scripts/controllers/entries.js",
+		"/C/Projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/assets/web/_Sass/Generic/Modules/RichContent/_annotated-carousel.scss",
+		"/C/Users/Andrew May/Documents/GitHub/zwag/gulpfile.js",
+		"/C/Users/Andrew May/Documents/GitHub/zwag/src/scripts/filters/highlight.js",
+		"/C/Users/Andrew May/Documents/GitHub/zwag/dist/scripts/app.js",
+		"/C/Users/Andrew May/Documents/GitHub/zwag/package.json",
+		"/C/Users/Andrew May/Documents/GitHub/zwag/data.json",
+		"/C/Users/Andrew May/Documents/Playground/index.html",
+		"/C/Users/Andrew May/Desktop/CSScomb.sublime-settings",
+		"/C/Projects/playground/svg-spite-demo/svg/houses.svg",
+		"/C/Projects/playground/svg-spite-demo/svg/noun_4387.svg",
+		"/C/Projects/playground/svg-spite-demo/svg/tent.svg",
+		"/C/Projects/playground/svg-spite-demo/svg/house.svg",
+		"/C/Projects/playground/svg-spite-demo/svg/cycle.svg",
+		"/C/Projects/playground/svg-spite-demo/Gruntfile.js",
+		"/C/Projects/playground/svg-spite-demo/css/sprites/icon-sprite-demo.html",
+		"/C/Projects/playground/svg-spite-demo/css/sprites/icon-sprite.svg",
+		"/C/Projects/playground/svg-spite-demo/svg/car.svg",
+		"/C/Projects/playground/svg-spite-demo/svg/noun_192.svg",
+		"/C/Projects/playground/svg-spite-demo/svg/index.html",
+		"/C/Projects/playground/svg-spite-demo/svg/noun_19261_cc.svg"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 92.0,
+		"where_history":
+		[
+			"C:\\projects\\barratt-developments.hg\\London\\BarrattDevelopments.Web\\Static\\Sass",
+			"C:\\projects\\barratt-developments.hg\\London\\BarrattDevelopments.Web\\Static\\Scripts",
+			"C:\\projects\\barratt-developments.hg\\London\\BarrattDevelopments.Web\\Static\\Sass",
+			"C:\\Projects\\barratt-developments.hg\\London\\BarrattDevelopments.Web\\Static\\Sass",
+			"C:\\projects\\barratt-developments.hg\\LBi.BarrattDevelopments.Web\\assets\\web\\_Sass",
+			"C:\\projects\\barratt-developments.hg\\LBi.BarrattDevelopments.Web\\assets\\web\\_Sass\\BAR",
+			"C:\\projects\\barratt-developments.hg\\LBi.BarrattDevelopments.Web\\assets\\web\\_Sass",
+			"C:\\projects\\barratt-developments.hg\\LBi.BarrattDevelopments.Web\\assets\\web\\_Sass\\Site"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"icon",
+			"extendMapBounds",
+			"click",
+			"Marker",
+			"extendMap",
+			"bounds",
+			"copy",
+			"formsCss",
+			"formCss",
+			"localIm",
+			"copy",
+			"sass2",
+			"browser",
+			"copy",
+			"local",
+			"copy",
+			"forms",
+			"CategoryMod",
+			"window-resize",
+			"window",
+			"window-resize",
+			"pub",
+			"Modernizr",
+			"OldIE",
+			"modern",
+			"mode",
+			"mod",
+			"mode",
+			"console.",
+			"vspa",
+			"bin",
+			"app",
+			"templates",
+			"MarkerModel",
+			"CID",
+			"bounds",
+			"console",
+			"config",
+			"infow",
+			"Icon",
+			"size",
+			"config",
+			"getCategoryByName",
+			"},\n",
+			"}\n",
+			"gmaps",
+			"console.log",
+			"Event",
+			"event",
+			"BH",
+			"LBI",
+			"array",
+			"vimeo",
+			"marker",
+			"cons",
+			"info",
+			"service",
+			"service-checker-container ",
+			"service",
+			"serv",
+			"floorplates__image-wrapper",
+			"window",
+			"Helper",
+			"help",
+			"max-viewport",
+			"aler",
+			"name",
+			"'",
+			"map-lo",
+			"map",
+			"InitOffice",
+			"officeItem",
+			"office",
+			"list",
+			"@mixin contact-console-list",
+			"contact-console",
+			"c:",
+			"$cc-list-values",
+			"contact-console-list",
+			"contact-console__list",
+			"contact-console",
+			"#d3ea3c",
+			"$bar-grey-pale-4",
+			".js",
+			"@include development-video",
+			"development-video",
+			"',\n",
+			"developments",
+			"trans",
+			"watchSass",
+			"();\n",
+			">\n",
+			"site",
+			"a",
+			"local"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"EXTENDMAPBOUNDS",
+			"\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/Andrew May/Dropbox/andy-may.co.uk/test.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Andrew May/Dropbox/andy-may.co.uk/ftpsync.settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3039,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								229,
+								229
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/FTPSync/Settings.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "client/hello.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 98.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 98.0
+	},
+	"pinned_build_system": "",
+	"project": "andy-may-cv.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"template",
+				"Scripts\\Components\\templates.js"
+			],
+			[
+				"templates",
+				"Scripts\\Components\\templates.js"
+			],
+			[
+				"",
+				"Package Control Messages"
+			],
+			[
+				"beha",
+				"BAU Assets\\lib\\script\\BarrattDevelopments\\Behaviors.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Projects\\sublime-projects\\barratt.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 244.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
