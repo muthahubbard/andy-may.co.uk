@@ -6,20 +6,20 @@ import CvSource from '../sources/CVSources';
 @createStore(alt)
 class CvStore {
   constructor() {
-    this.name = 'asjoajsoa';
     this.skills = [];
+    this.projects = [];
     this.registerAsync(CvSource);
   }
   
   @bind(CvActions.getData)
-  getData(name) {
-    this.name = name;
+  getData() {
     this.getInstance().fetchData();
   }
 
   @bind(CvActions.dataLoaded)
-  dataLoaded(data) {
-    this.skills = data;
+  dataLoaded(cvData) {
+    this.skills = cvData.skills;
+    this.projects = cvData.projects;
   }
 
 }

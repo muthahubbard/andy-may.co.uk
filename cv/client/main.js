@@ -13,4 +13,4 @@ render((
       <Route path="projects" component={Projects} />
     </Route>
   </Router>
-), document.getElementById('hello'));
+), document.getElementById('cvApp'));

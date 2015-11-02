@@ -8,6 +8,13 @@ import Interests from './interests.jsx';
 export default class Cv extends React.Component {
   render() {
     return <div className="cv">
+      <ul>
+        <li>Profile</li>
+        <li><a href="#employment">Employment</a></li>
+        <li>Skills / Technologies</li>
+        <li>Education</li>
+        <li>Interests</li>
+      </ul>
       <Profile />
       <Employment />
       <Skills />
