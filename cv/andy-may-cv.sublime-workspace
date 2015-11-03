@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"pro",
+				"processors"
+			],
+			[
+				"proje",
+				"project"
+			],
+			[
+				"cla",
+				"className"
+			],
+			[
 				"CV",
 				"CvActions"
 			],
@@ -180,10 +192,6 @@
 				"removeIndex"
 			],
 			[
-				"cla",
-				"classie〔variable〕"
-			],
-			[
 				"re",
 				"remove"
 			],
@@ -198,10 +206,6 @@
 			[
 				"items",
 				"itemsAllowed"
-			],
-			[
-				"pro",
-				"prototype"
 			],
 			[
 				"init",
@@ -224,22 +228,6 @@
 	"buffers":
 	[
 		{
-			"file": "client/App.jsx",
-			"settings":
-			{
-				"buffer_size": 1259,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "shared/components/employment.jsx",
-			"settings":
-			{
-				"buffer_size": 4463,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "shared/components/skills.jsx",
 			"settings":
 			{
@@ -248,39 +236,7 @@
 			}
 		},
 		{
-			"file": "shared/sources/CVSources.js",
-			"settings":
-			{
-				"buffer_size": 960,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 418,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "shared/components/profile.jsx",
-			"settings":
-			{
-				"buffer_size": 1214,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "shared/components/cv.jsx",
-			"settings":
-			{
-				"buffer_size": 433,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "shared/components/interests.jsx",
 			"settings":
 			{
 				"buffer_size": 571,
@@ -288,18 +244,61 @@
 			}
 		},
 		{
-			"file": "shared/components/education.jsx",
+			"contents": "import React from 'react';\n\nimport { Link } from 'react-router';\n\nimport { Component } from 'react';\n\nexport default class App extends React.Component {\n\n\n  render () {\n\n    return <div>\n      <header>\n        <h1>Andy May</h1>\n        <p>Specialising in front-end, mobile and Umbraco CMS development.</p>\n        <nav>\n          <ul>\n            <li><Link to=\"/\">CV</Link></li>\n            <li><Link to=\"/projects\">Projects</Link></li>\n            <li><Link to=\"/projects\">Recomendations</Link></li>\n          </ul>\n        </nav>\n      </header>\n      <main id=\"main\" role=\"main\">\n        {this.props.children}\n      </main>\n      <footer>\n        <p>This site has been built using React, Flux (AltJS), webpack, PostCSS. I hope to add Isomorphic React via NodeJS in the future. Full source code can be found on <a href=\"https://github.com/muthahubbard/andy-may.co.uk\">GitHub</a></p>\n        <ul>\n          <li><a class=\"email\" href=\"mailto:andy@andy-may.co.uk\">andy@andy-may.co.uk</a></li>\n          <li><a class=\"phone\" href=\"tel:+447977939282\">07977 939282</a></li>\n          <li><a class=\"linkedin\" href=\"https://uk.linkedin.com/pub/andy-may/2b/381/912\">LinkedIn</a></li>\n          <li><a class=\"twitter\" href=\"https://twitter.com/andyjohnmay\">Twitter</a></li>\n        </ul>\n      </footer>\n    </div>\n  };\n}",
+			"file": "client/App.jsx",
+			"file_size": 1350,
+			"file_write_time": 130909719513344250,
 			"settings":
 			{
-				"buffer_size": 246,
+				"buffer_size": 1313,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "client/main.js",
+			"file": "gulpfile.js",
 			"settings":
 			{
-				"buffer_size": 471,
+				"buffer_size": 2200,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/stylesheets/index.css",
+			"settings":
+			{
+				"buffer_size": 219,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "shared/main.js",
+			"settings":
+			{
+				"buffer_size": 466,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "webpack.config.js",
+			"settings":
+			{
+				"buffer_size": 573,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dist/stylesheets/index.css",
+			"settings":
+			{
+				"buffer_size": 48,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "shared/sources/CVSources.js",
+			"settings":
+			{
+				"buffer_size": 4566,
 				"line_ending": "Windows"
 			}
 		},
@@ -307,7 +306,24 @@
 			"file": "shared/components/projects.jsx",
 			"settings":
 			{
-				"buffer_size": 130,
+				"buffer_size": 747,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "shared/components/project.jsx",
+			"settings":
+			{
+				"buffer_size": 493,
+				"line_ending": "Windows",
+				"name": "import React from 'react';"
+			}
+		},
+		{
+			"file": "shared/stores/cv-store.js",
+			"settings":
+			{
+				"buffer_size": 555,
 				"line_ending": "Windows"
 			}
 		}
@@ -393,10 +409,23 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Andrew May/Documents/GitHub/andy-may.co.uk/cv/client"
+		"/C/Users/Andrew May/Documents/GitHub/andy-may.co.uk/cv/client",
+		"/C/Users/Andrew May/Documents/GitHub/andy-may.co.uk/cv/shared",
+		"/C/Users/Andrew May/Documents/GitHub/andy-may.co.uk/cv/shared/components"
 	],
 	"file_history":
 	[
+		"/C/Users/Andrew May/Documents/GitHub/andy-may.co.uk/cv/client/main.js",
+		"/C/Users/Andrew May/Documents/GitHub/andy-may.co.uk/cv/dist/stylesheets/index.css",
+		"/C/Users/Andrew May/Documents/GitHub/andy-may.co.uk/cv/dist/bundle.js",
+		"/C/Users/Andrew May/Documents/GitHub/andy-may.co.uk/cv/client/App.jsx",
+		"/C/Users/Andrew May/Documents/GitHub/andy-may.co.uk/cv/shared/components/profile.jsx",
+		"/C/Users/Andrew May/Documents/GitHub/andy-may.co.uk/cv/shared/components/cv.jsx",
+		"/C/Users/Andrew May/Documents/GitHub/andy-may.co.uk/cv/shared/components/interests.jsx",
+		"/C/Users/Andrew May/Documents/GitHub/andy-may.co.uk/cv/shared/components/education.jsx",
+		"/C/Users/Andrew May/Documents/GitHub/andy-may.co.uk/cv/shared/components/projects.jsx",
+		"/C/Users/Andrew May/Documents/GitHub/andy-may.co.uk/cv/index.html",
+		"/C/Users/Andrew May/Documents/GitHub/andy-may.co.uk/cv/shared/components/employment.jsx",
 		"/C/Users/Andrew May/Documents/GitHub/andy-may.co.uk/cv/shared/actions/cv-actions.js",
 		"/C/Users/Andrew May/Documents/GitHub/andy-may.co.uk/cv/shared/sources/CVSources.js",
 		"/C/Users/Andrew May/Documents/GitHub/andy-may.co.uk/cv/shared/stores/cv-store.js",
@@ -405,8 +434,6 @@
 		"/C/Users/Andrew May/Documents/GitHub/first-react-app/app/list-container.js",
 		"/C/Users/Andrew May/Documents/GitHub/first-react-app/app/stores/my-store.js",
 		"/C/Users/Andrew May/Documents/GitHub/first-react-app/app/api.js",
-		"/C/Users/Andrew May/Documents/GitHub/andy-may.co.uk/cv/index.html",
-		"/C/Users/Andrew May/Documents/GitHub/andy-may.co.uk/cv/client/main.js",
 		"/C/Users/Andrew May/Documents/GitHub/first-react-app/app/alt.js",
 		"/C/Users/Andrew May/Documents/GitHub/andy-may.co.uk/cv/webpack.config.js",
 		"/C/Users/Andrew May/Documents/GitHub/andy-may.co.uk/cv/client/Hello.jsx",
@@ -515,16 +542,7 @@
 		"/C/Projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/HtmlTemplates/WEBBAU-617/WEBBAU-617.aspx",
 		"/C/projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/assets/web/lib/script/BarrattDevelopments.js",
 		"/C/projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/assets/web/lib/script/BarrattDevelopments/Behaviors.js",
-		"/C/Projects/sublime-projects/barratt.sublime-project",
-		"/C/projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/assets/web/lib/script/BarrattDevelopments/Behaviors/AnnotatedCarousel.js",
-		"/C/Users/Andrew May/Documents/Playground/product-compare/scripts/main.js",
-		"/C/Projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/assets/web/lib/script/BarrattDevelopments/Behaviors/Warranty.js",
-		"/C/Projects/playground/svg-spite-demo/index.html",
-		"/C/projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/assets/web/lib/script/BarrattDevelopments/Config/default.js",
-		"/C/projects/barratt-developments.hg/LBi.BarrattDevelopments.Web/assets/web/lib/script/BarrattDevelopments/VimeoPlayer.js",
-		"/C/Projects/barratt-developments.hg/id_build/config/sass.js",
-		"/C/Users/Andrew May/Documents/GitHub/zwag/index.html",
-		"/C/Users/Andrew May/Documents/Playground/product-compare/index.html"
+		"/C/Projects/sublime-projects/barratt.sublime-project"
 	],
 	"find":
 	{
@@ -550,6 +568,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"{\n",
 			"mockData",
 			"icon",
 			"extendMapBounds",
@@ -670,88 +689,6 @@
 			[
 				{
 					"buffer": 0,
-					"file": "client/App.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1259,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								443,
-								443
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "shared/components/employment.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4463,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								98,
-								98
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 84.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "shared/components/skills.jsx",
 					"semi_transient": false,
 					"settings":
@@ -763,8 +700,8 @@
 						"selection":
 						[
 							[
-								83,
-								83
+								126,
+								126
 							]
 						],
 						"settings":
@@ -781,6 +718,7 @@
 									"selector": "text.html"
 								}
 							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti.tmTheme",
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -789,24 +727,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "shared/sources/CVSources.js",
+					"buffer": 1,
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 960,
+						"buffer_size": 571,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								459,
-								459
+								247,
+								247
 							]
 						],
 						"settings":
@@ -823,6 +761,212 @@
 									"selector": "text.html"
 								}
 							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti.tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "client/App.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1313,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2200,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1166,
+								1166
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti.tmTheme",
+							"syntax": "Packages/Seti_UI/Langs/Gulpfile JS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 42.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "assets/stylesheets/index.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 219,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								219,
+								219
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti.tmTheme",
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "shared/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 466,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								240,
+								240
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti.tmTheme",
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "webpack.config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 573,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								573,
+								573
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti.tmTheme",
 							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -835,145 +979,24 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 418,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								402,
-								402
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "shared/components/profile.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1214,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1214,
-								1214
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "shared/components/cv.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 433,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								412,
-								412
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
 					"buffer": 7,
-					"file": "shared/components/interests.jsx",
+					"file": "dist/stylesheets/index.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 571,
+						"buffer_size": 48,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								536,
-								536
+								48,
+								48
 							]
 						],
 						"settings":
 						{
-							"auto_complete": false,
 							"auto_complete_triggers":
 							[
 								{
@@ -985,30 +1008,31 @@
 									"selector": "text.html"
 								}
 							],
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti.tmTheme",
+							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
-						"translation.x": 821.0,
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 8,
-					"file": "shared/components/education.jsx",
+					"file": "shared/sources/CVSources.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 246,
+						"buffer_size": 4566,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								239,
-								239
+								4566,
+								4566
 							]
 						],
 						"settings":
@@ -1025,32 +1049,33 @@
 									"selector": "text.html"
 								}
 							],
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti.tmTheme",
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 868.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
 					"buffer": 9,
-					"file": "client/main.js",
+					"file": "shared/components/projects.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 471,
+						"buffer_size": 747,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								351,
-								351
+								639,
+								639
 							]
 						],
 						"settings":
@@ -1067,9 +1092,8 @@
 									"selector": "text.html"
 								}
 							],
-							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1080,19 +1104,50 @@
 				},
 				{
 					"buffer": 10,
-					"file": "shared/components/projects.jsx",
+					"file": "shared/components/project.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 130,
+						"buffer_size": 493,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								26,
-								26
+								283,
+								283
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_name": "import React from 'react';",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "shared/stores/cv-store.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 555,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								394,
+								394
 							]
 						],
 						"settings":
@@ -1109,13 +1164,16 @@
 									"selector": "text.html"
 								}
 							],
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti.tmTheme",
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 7,
 					"type": "text"
 				}
 			]

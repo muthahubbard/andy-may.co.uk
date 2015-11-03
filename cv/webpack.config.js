@@ -2,7 +2,7 @@ var path = require('path');
 var webpack = require('webpack');
 
 module.exports = {
-  entry: './client/main.js',
+  entry: './src/shared/main.js',
   output: {
     path:     path.join(__dirname, 'dist'),
     filename: 'bundle.js'

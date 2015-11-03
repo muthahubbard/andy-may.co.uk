@@ -1,20 +1,32 @@
 var gulp = require('gulp');
 var gutil = require("gulp-util");
+//var batch = require('gulp-batch');
+var watch = require('gulp-watch');
 var webpack = require("webpack");
 var WebpackDevServer = require("webpack-dev-server");
 var webpackConfig = require("./webpack.config.js");
+var postcss      = require('gulp-postcss');
+var autoprefixer = require('autoprefixer');
 var cssnext = require('gulp-cssnext');
 
 // The development server (the recommended option for development)
-gulp.task("default", ["webpack-dev-server", "stylesheets"]);
+gulp.task("default", ["webpack-dev-server", "stylesheets", "watch"]);
+
+gulp.task('watch', function() {
+  gulp.watch('assets/stylesheets/index.css', ['stylesheets']); 
+});
 
 gulp.task('build', ['webpack:build']);
 
 gulp.task("stylesheets", function() {
+
+  var processors = [
+    autoprefixer({browsers: ['last 1 version']})
+  ];
+
   gulp.src("assets/stylesheets/index.css")
-    .pipe(cssnext({
-        compress: true
-    }))
+    .pipe(cssnext({compress: true}))
+    .pipe(postcss(processors))
     .pipe(gulp.dest("./dist/stylesheets"))
 });
 
